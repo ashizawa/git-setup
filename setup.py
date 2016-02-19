@@ -7,7 +7,7 @@ setup(
     install_requires=[],
     entry_points={
         'console_scripts':
-            'git-setup = git_setup:setup'
+            'git-setup = git_setup.main:setup'
     },
     zip_safe=False,
     classifiers=[
